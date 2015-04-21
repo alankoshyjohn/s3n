@@ -125,10 +125,6 @@ Relation between a Sensor and a Property that the sensor can observe.
 
 Relation from a Sensor to a MeasurementCapability describing the measurement properties of the sensor.
 
-##MeasurementProperty
-
-An identifiable and observable characteristic of a sensor's observations or ability to make observations.
-
 ##observedProperty
 
 Relation linking an Observation to the Property that was observed. 
