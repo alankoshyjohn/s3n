@@ -24,6 +24,7 @@ here include:
 | http://www.w3.org/2001/XMLSchema# | xsd | XML Schema namespace |
    
 ## Classes
-
+### Device
+A device is a physical piece of technology - a system in a box. Devices may be built of smaller devices.
 
 ## Properties
