@@ -145,3 +145,7 @@ Relation between a producer and a produced entity: for example, between a sensor
 
 Relation between an Observation and Sensor.
 
+##hasMeasurementProperty
+
+Relation from a MeasurementCapability to a MeasurementProperty
+
