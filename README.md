@@ -25,7 +25,7 @@ here include:
 
 #Classes   
  Class Name 														| Label 		| Description	| Related Properties 
-:----------:														|:-----:		|:-----------:	|:------------------
+:----------:														|:-----:		|:-----------	|:------------------
  [s3n:Device](https://imergo.com/ns/2015/s3n#Device)				| Device		|	A device is a physical piece of technology			| [dct:hasPart](http://purl.org/dc/terms/hasPart)
  [s3n:Sensor](https://imergo.com/ns/2015/s3n#Sensor)				| Sensor  		|Any thing that can follow a sensing Method to observe a Property | [s3n:observes](https://imergo.com/ns/2015/s3n#observes) <br>[s3n:detects](https://imergo.com/ns/2015/s3n#detects) <br>[s3n:hasMeasurementCapability](https://imergo.com/ns/2015/s3n#hasMeasurementCapability)      
  [s3n:Observation](https://imergo.com/ns/2015/s3n#Observation)  	| Observation	|A  situation in which a Sensing method has been used to estimate or calculate a value of a Property. | [s3n:observedBy](https://imergo.com/ns/2015/s3n#observedBy) <br>[s3n:observedProperty](https://imergo.com/ns/2015/s3n#observedProperty) <br>[s3n:observationResult](https://imergo.com/ns/2015/s3n#observationResult) <br>[dct:includesEvent](http://www.loa-cnr.it/ontologies/DUL.owl#includesEvent) <br>[s3n:observationResultTime](https://imergo.com/ns/2015/s3n#observationResultTime)
