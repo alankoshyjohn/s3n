@@ -113,60 +113,60 @@ Sensitivity is the quotient of the change in a result of sensor and the correspo
 
 Class Name 														| Label 		| Domain	| Range 
 :----------:														|:-----:		|:-----------:	|:------------------
- [s3n:detects](https://imergo.com/ns/2015/s3n#detects)				| detects		| s3n:Sensor				| [s3n:SensorInput](https://imergo.com/ns/2015/s3n#SensorInput)
- [s3n:observes](https://imergo.com/ns/2015/s3n#observes)		| Sensor   | s3n:Sensor    | [s3n:Property](https://imergo.com/ns/2015/s3n#Property)
- [s3n:hasMeasurementCapability](https://imergo.com/ns/2015/s3n#hasMeasurementCapability)  	| hasMeasurementCapability	| s3n:Sensor | [s3n:MeasurementCapability](https://imergo.com/ns/2015/s3n#MeasurementCapability)  
- [s3n:observedProperty](https://imergo.com/ns/2015/s3n#observedProperty)				| observedProperty		| s3n:Observation				| [s3n:Property](https://imergo.com/ns/2015/s3n#Property)
- [s3n:observationResult](https://imergo.com/ns/2015/s3n#observationResult)		| observationResult   | s3n:Observation    | [s3n:SensorOutput](https://imergo.com/ns/2015/s3n#Output)
- [s3n:isProducedBy](https://imergo.com/ns/2015/s3n#isProducedBy)				| isProducedBy		| s3n:SensorOutput				| [s3n:Sensor](https://imergo.com/ns/2015/s3n#Sensor)
- [s3n:observedBy](https://imergo.com/ns/2015/s3n#observedBy)		| observedBy   | s3n:Observation    | [s3n:Sensor](https://imergo.com/ns/2015/s3n#Sensor)	
- [s3n:hasMeasurementProperty](https://imergo.com/ns/2015/s3n#hasMeasurementProperty)  	| hasMeasurementProperty	| s3n:MeasurementCapability | [s3n:MeasurementProperty](https://imergo.com/ns/2015/s3n#MeasurementProperty)
+ [s3n:detects](https://imergo.com/ns/2015/s3n#detects)				| detects		| [s3n:Sensor](https://imergo.com/ns/2015/s3n#Sensor)				| [s3n:SensorInput](https://imergo.com/ns/2015/s3n#SensorInput)
+ [s3n:observes](https://imergo.com/ns/2015/s3n#observes)		| Sensor   | [](https://imergo.com/ns/2015/s3n#Observation)s3n:Sensor](https://imergo.com/ns/2015/s3n#Sensor)    | [s3n:Property](https://imergo.com/ns/2015/s3n#Property)
+ [s3n:hasMeasurementCapability](https://imergo.com/ns/2015/s3n#hasMeasurementCapability)  	| hasMeasurementCapability	| [s3n:Sensor](https://imergo.com/ns/2015/s3n#Sensor) | [s3n:MeasurementCapability](https://imergo.com/ns/2015/s3n#MeasurementCapability)  
+ [s3n:observedProperty](https://imergo.com/ns/2015/s3n#observedProperty)				| observedProperty		| [s3n:Observation](https://imergo.com/ns/2015/s3n#Observation)				| [s3n:Property](https://imergo.com/ns/2015/s3n#Property)
+ [s3n:observationResult](https://imergo.com/ns/2015/s3n#observationResult)		| observationResult   | [s3n:Observation](https://imergo.com/ns/2015/s3n#Observation)    | [s3n:SensorOutput](https://imergo.com/ns/2015/s3n#Output)
+ [s3n:isProducedBy](https://imergo.com/ns/2015/s3n#isProducedBy)				| isProducedBy		| [s3n:SensorOutput](https://imergo.com/ns/2015/s3n#SensorOutput)				| [s3n:Sensor](https://imergo.com/ns/2015/s3n#Sensor)
+ [s3n:observedBy](https://imergo.com/ns/2015/s3n#observedBy)		| observedBy   | [s3n:Observation](https://imergo.com/ns/2015/s3n#Observation)    | [s3n:Sensor](https://imergo.com/ns/2015/s3n#Sensor)	
+ [s3n:hasMeasurementProperty](https://imergo.com/ns/2015/s3n#hasMeasurementProperty)  	| hasMeasurementProperty	| [s3n:MeasurementCapability](https://imergo.com/ns/2015/s3n#MeasurementCapability) | [s3n:MeasurementProperty](https://imergo.com/ns/2015/s3n#MeasurementProperty)
  
 ##detects
 
 A relation from a sensor to the Stimulus(input) that the sensor can detect.
-<br>Domain: s3n:Sensor
-<br>Range: s3n:SesorInput
+<br>Domain: [s3n:Sensor](https://imergo.com/ns/2015/s3n#Sensor)
+<br>Range: [s3n:SesorInput](https://imergo.com/ns/2015/s3n#SensorInput)
 
 ##observes
 
 Relation between a Sensor and a Property that the sensor can observe.
-<br>Domain: s3n:Sensor
-<br>Range: s3n:Property
+<br>Domain: [s3n:Sensor](https://imergo.com/ns/2015/s3n#Sensor)
+<br>Range: [s3n:Property](https://imergo.com/ns/2015/s3n#Property)
 
 ##hasMeasurementCapability
 
 Relation from a Sensor to a MeasurementCapability describing the measurement properties of the sensor.
-<br>Domain: s3n:Sensor
-<br>Range: s3n:MeasurementCapability
+<br>Domain: [s3n:Sensor](https://imergo.com/ns/2015/s3n#Sensor)
+<br>Range: [s3n:MeasurementCapability](https://imergo.com/ns/2015/s3n#MeasurementCapability)
 
 ##observedProperty
 
 Relation linking an Observation to the Property that was observed.
-<br>Domain: s3n:Observation
-<br>Range: s3n:Property
+<br>Domain: [s3n:Observation](https://imergo.com/ns/2015/s3n#Observation)
+<br>Range: [s3n:Property](https://imergo.com/ns/2015/s3n#Property)
 
 ##observationResult
 
 Relation linking an Observation (i.e., a description of the context, the Situation, in which the observatioin was made) and a Result, which contains a value representing the value associated with the observed Property.
-<br>Domain: s3n:Observation
-<br>Range: s3n:SensorOutput
+<br>Domain: [s3n:Observation](https://imergo.com/ns/2015/s3n#Observation)
+<br>Range: [s3n:SensorOutput](https://imergo.com/ns/2015/s3n#SensorOutput)
 
 ##isProducedBy
 
 Relation between a producer and a produced entity: for example, between a sensor and the produced output.
-<br>Domain: s3n:SensorOutput
-<br>Range: s3n:Sensor
+<br>Domain: [s3n:SensorOutput](https://imergo.com/ns/2015/s3n#SensorOutput)
+<br>Range: [s3n:Sensor](https://imergo.com/ns/2015/s3n#Sensor)
 
 ##observedBy
 
 Relation between an Observation and Sensor.
-<br>Domain: s3n:Observation
-<br>Range: s3n:Sensor
+<br>Domain: [s3n:Observation](https://imergo.com/ns/2015/s3n#Observayion)
+<br>Range: [s3n:Sensor](https://imergo.com/ns/2015/s3n#Sensor)
 
 ##hasMeasurementProperty
 
 Relation from a MeasurementCapability to a MeasurementProperty
-<br>Domain: s3n:MeasurementCapability
-<br>Range: s3n:MeasurementProperty
+<br>Domain: [s3n:MeasurementCapability](https://imergo.com/ns/2015/s3n#MeasurementCapability)
+<br>Range: [s3n:MeasurementProperty](https://imergo.com/ns/2015/s3n#MeasurementProperty)
 
